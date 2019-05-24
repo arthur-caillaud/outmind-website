@@ -538,7 +538,11 @@ p {
   position: fixed;
   top: 0;
   z-index: 99;
+<<<<<<< HEAD
   background: linear-gradient(90deg, #007bff96 0%, rgb(59, 37, 160) 100%);
+=======
+  background: linear-gradient(90deg, #007fff42 0%, rgb(91, 160, 255) 50%, rgb(59, 37, 160) 100%);
+>>>>>>> dev
   display: flex;
   align-items: center;
 }

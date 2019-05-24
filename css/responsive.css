@@ -13,7 +13,7 @@
         font-size: 14px;
     }
     .welcome-thumb {
-        width: 50%;
+        width: 70%;
         bottom: -100px;
         right: 50px;
     }
@@ -315,7 +315,7 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .wellcome_area {      
+    .wellcome_area {
         height: 122vh;
     }
     .wellcome-heading > h2 {
@@ -345,4 +345,3 @@
         font-size: 3.2rem;
     }
   }
-
