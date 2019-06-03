@@ -1,4 +1,5 @@
 {
   "name": "outmind-website",
-  "version": 2
+  "version": 2,
+  "alias": ["outmind.fr","outmind.co","www.outmind.fr","www.outmind.co"]
 }
