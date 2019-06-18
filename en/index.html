@@ -799,32 +799,12 @@
     <script src="../js/footer-reveal.min.js"></script>
     <!-- Active JS -->
     <script src="../js/active.js"></script>
-    <script type="text/javascript">
-      (function(w, d) {
-        w.HelpCrunch = function() {
-          w.HelpCrunch.q.push(arguments)
-        };
-        w.HelpCrunch.q = [];
-
-        function r() {
-          var s = document.createElement('script');
-          s.async = 1;
-          s.type = 'text/javascript';
-          s.src = 'https://widget.helpcrunch.com/';
-          (d.body || d.head).appendChild(s);
-        }
-        if (w.attachEvent) {
-          w.attachEvent('onload', r)
-        } else {
-          w.addEventListener('load', r, false)
-        }
-      })(window, document)
-      HelpCrunch('init', 'outmind', {
-        applicationId: 1,
-        applicationSecret: 'bWVdd74YXtQFyo+YDCulKj8+iDWJvDvJp5djxsjqCBjksDk3oi83i5Lx9g0Kf2Pi78X6kfpzTcv9dLiQvC8i0Q=='
-      });
-      HelpCrunch('showChatWidget');
-    </script>
+    <script>
+  window.intercomSettings = {
+    app_id: "dkgpxi47"
+  };
+</script>
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/dkgpxi47';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
 </body>
 
 </html>
